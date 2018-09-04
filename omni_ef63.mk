@@ -33,7 +33,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     device/pantech/ef63/kernel:kernel
 
-PRODUCT_COPY_FILES += device/pantech/ef63/fstab.qcom:recovery/root/fstab.qcom
+PRODUCT_COPY_FILES += device/pantech/ef63/recovery.fstab:recovery/root/etc/twrp.fstab
 
 PRODUCT_NAME := omni_ef63
 PRODUCT_DEVICE := ef63
