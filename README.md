@@ -3,7 +3,7 @@ Tree for building TWRP for PANTECH SKY VEGA IRON 2
 
 ## Kernel Sources
 
-https://github.com/chautruongthinh/android_kernel_pantech_msm8x74/tree/lineage-15.1
+https://github.com/sky-vega-dev-team/kernel_pantech_msm8x74/tree/ten
 
 ## To compile
 
