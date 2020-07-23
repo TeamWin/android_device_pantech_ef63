@@ -1,6 +1,19 @@
-Copyright 2016, TekCafe Team
+# android_device_pantech_ef63
+Tree for building TWRP for PANTECH SKY VEGA IRON 2
 
-Device Tree TWRP For PANTECH SKY VEGA IRON 2
+## Kernel Sources
+
+https://github.com/sky-vega-dev-team/kernel_pantech_msm8x74/tree/ten
+
+## To compile
+
+export ALLOW_MISSING_DEPENDENCIES=true
+
+. build/envsetup.sh && lunch omni_ef63-eng
+
+mka recoveryimage
+
+## Device specifications
 =======================================
 
 Basic   | Spec Sheet
@@ -16,7 +29,8 @@ Battery | 3,220 mAh
 Dimensions | 144.2 x 73.5 x 7.9mm - 152g(Black), 153g(White)
 Camera  | 13M wide OIS / 2.1M FULL HD
 
+## Device picture
 
 ![SKY VEGA IRON 2](http://pantech.co.kr/cmm/fms/getImage.do?atchFileId=FILE_000000000008005&fileSn=1 "SKY VEGA IRON2")
 
-Kernel source code: https://github.com/HexagonRom/android_kernel_pantech_msm8x74
+Copyright 2016, TekCafe Team
